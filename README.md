@@ -4,11 +4,8 @@ Use this guide to integrate Suricata (NIDS/IPS) with Wazuh for centralized detec
 
 Wazuh: Manager or agent deployed accordingly (Suricata runs on agent hosts)
 3. 🛠 Install Suricata
-On Debian/Ubuntu:
-sudo apt update
 sudo apt install suricata -y
 Let’s first check the status of Suricata,
-sudo systemctl status suricata
 Once the agent is successfully deployed, change the directory to 
 sudo nano /var/ossec/etc and edit ossec.conf
 In the suricata machine, download and extract the Emerging Threats Suricata ruleset
