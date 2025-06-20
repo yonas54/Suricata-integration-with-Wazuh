@@ -1,7 +1,6 @@
  Suricata + Wazuh Integration README
 1. 🔧 Overview
-Use this guide to integrate Suricata (NIDS/IPS) with Wazuh for centralized detection and alerting. Suricata analyzes network traffic and logs events to eve.json, while Wazuh ingests these logs for SIEM capabilities.2. 🖥 Environment
-Suricata host: Linux endpoint (e.g., Ubuntu 22.04/24.04 or kali-linux)
+Use this guide to integrate Suricata (NIDS/IPS) with Wazuh for centralized detection and alerting.
 
 Wazuh: Manager or agent deployed accordingly (Suricata runs on agent hosts)
 3. 🛠 Install Suricata
